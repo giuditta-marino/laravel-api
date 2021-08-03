@@ -6,5 +6,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class Postcard extends Model
 {
-  
+  protected $fillable = [
+        'title',
+        'content'
+    ];
 }
